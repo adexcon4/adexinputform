@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: pink;
+    font-family: 'Roboto', sans-serif; 
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.container{
+    margin-top: 15%;
+    width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;1px
+}
+
+body{
+    background: #2e889a;
+    font-family: 'Roboto', sans-serif; 
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.container{
+    margin-top: 15%;
+    width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+
+    flex-direction: column;
+    align-items: center;";
+        grid-gap: 10px;
+
+        .input-container{
+            display: flex;
+            flex-direction: column;
+            input{
+                height: 30px;
+                border-radius: 6px;
+
+                border: 2px solid rgb(168, 164, 164);
+                padding-left: 6px;
+                outline: none;
+            }
+
+            #last-name,#first-name{
+                text-transform: capitalize; 
+            }
+
+        .first-name{
+            grid-area: firstName;
+        }
+
+        .last-name{
+            grid-area: lastName;
+        }
+
+        .email{
+            grid-area:  password;
+        }
+
+        .re-password{
+            grid-area: rePassword;
+        }
+    }
+}
+</style>
+</head>
+
+<body>
+<body>
+    <div class="container">
+        <h1 class="heading">Create Account</h1>
+        <form action="#">
+            <div class="first-name input-container">
+                <label for="first-name">First Name</label>
+                <input type="text" name="first-name" autocomplete="off" id="first-name" placeholder="First Name">
+            </div>
+            <div class="last-name input-container">
+                <label for="last-name">Last Name</label>
+                <input type="text" name="last-name" id="last-name" autocomplete="off" placeholder="Last Name">
+            </div>
+            <div class="email input-container">
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" placeholder="Email" autocomplete="off">
+            </div>
+            <div class="password input-container">
+                <label for="password">Password</label>
+                <input type="password" name="password" id="password" placeholder="Password" autocomplete="off">
+            </div>
+
+            <div class="re-password input-container">
+                <label for="re-password">Password</label>
+                <input type="password" name="re-password" id="re-password" placeholder="Re-type Password" autocomplete="off">
+            </div>
+        </form>
+    </div>
+</body>
+</html>
