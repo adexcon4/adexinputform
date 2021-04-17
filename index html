@@ -81,8 +81,6 @@ body{
 }
 </style>
 </head>
-
-<body>
 <body>
     <div class="container">
         <h1 class="heading">Create Account</h1>
